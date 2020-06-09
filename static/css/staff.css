@@ -1,6 +1,6 @@
 .staff{    
     position: relative;
-    height: 800px;
+    height: 1000px;
     overflow: hidden; 
     background: blueviolet;
     background-size: cover;
@@ -17,8 +17,7 @@
     grid-template-areas: "h1 h1 h1"
                             "play1 play2 play3"
                             "play4 play5 play6";
-    position: relative; 
-    
+    position: relative;     
     text-align: center;
     color: #ed8e00;
     text-transform: uppercase;
@@ -31,43 +30,62 @@
 
 .play1{
     grid-area: play1;
-    height: 200px;
     background: url(/static/img/ir.jpg) no-repeat center;
-    background-size: cover;
+    border: 10px solid white;
+    width:300px;
+    height:300px;
+    border-radius:300px;
+    background-size:cover;
 }
 
 
 .play2{
     grid-area: play2;
-    height: 200px;
+    border: 10px solid white;
+    width:300px;
+    height:300px;
+    border-radius:300px;
     background: url(/static/img/v.jpg) no-repeat center;
     background-size: cover;
 }
 
 .play3{
     grid-area: play3;
-    height: 200px;
-    background: url(/static/img/cs.jpg) no-repeat center;
+    border: 10px solid white;
+    width:300px;
+    height:300px;
+    border-radius:300px;
+    background: url(/static/img/emma.png) no-repeat center;
     background-size: cover;
 }
 
 .play4{
     grid-area: play4;
-    height: 200px;
-    background: url(/static/img/a.jpg) no-repeat center;
+    border: 10px solid white;
+    width:300px;
+    height:300px;
+    border-radius:300px;
+    background: url(/static/img/emma.png) no-repeat center;
     background-size: cover;
 }
 
 .play5{
     grid-area: play5;
-    height: 200px;
+    border: 10px solid white;
+    width:300px;
+    height:300px;
+    border-radius:300px;
     background: url(/static/img/iv.jpg) no-repeat center;
     background-size: cover;
 }
 
 .play6{
-    grid-area: play6;
-    background: lightblue;
+    border: 10px solid white;
+    width:300px;
+    height:300px;
+    border-radius:300px;
+    background: url(/static/img/emma.png) no-repeat center;
+    background-size: cover;
 }
 
 @media screen and (max-width:768px){
