@@ -3,7 +3,7 @@
     padding: 0;
     position: relative;
     overflow: hidden; 
-    height: 250px;
+    height: 400px;
     overflow: hidden; 
     background: #8293a1;
     background-size: cover;
@@ -26,10 +26,11 @@
 }
 
 .container-admin h1 span{
-    border: 10px solid white;
-    /* background: url(/static/img/cactus-maseta.jpg) no-repeat center; */
-    padding: 6px 14px;
-    display: inline-block;
+    margin: 0;
+    background: url(/static/img/checklist.png) no-repeat center; 
+    background-size: 250px;    
+    padding: 100px 100px;
+    display: inline-flex;
 }
 
 .des-admin{

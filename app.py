@@ -16,6 +16,6 @@ app = Flask(__name__, template_folder = "template_name_folder")
 """
 
 @server.route('/', methods = ['GET','POST'])
-def index(name='Pichones Corp Home'):
+def index(name='Pichones'):
     return  render_template('home.html',title = name)
 
